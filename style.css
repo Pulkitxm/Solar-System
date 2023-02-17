@@ -1,0 +1,222 @@
+body {
+  background-color: black;
+}
+#center {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+#sun {
+  background-image: url("Planets/Sun.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#mercury {
+  background-image: url("Planets/Mercury.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: circlemercury 1s infinite linear;
+}
+#venus {
+  background-image: url("Planets/Venus.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: circlevenus 2s infinite linear;
+}
+#earth {
+  background-image: url("Planets/Earth.jpg");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: circleearth 3s infinite linear;
+}
+#mars {
+  background-image: url("Planets/Mars.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: circlemars 4s infinite linear;
+}
+#Jupiter {
+  background-image: url("Planets/Jupiter.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: circleJupiter 5s infinite linear;
+}
+#saturn {
+  background-image: url("Planets/Saturn.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: circlesaturn 6s infinite linear;
+}
+#uranus {
+  background-image: url("Planets/Uranus.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: circleuranus 7s infinite linear;
+}
+#neptune {
+  background-image: url("Planets/Neptune.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: circleneptune 8s infinite linear;
+}
+
+@keyframes circlemercury {
+  0% {
+    transform: rotate(0deg) translate(-50px);
+  }
+  100% {
+    transform: rotate(360deg) translate(-50px);
+  }
+}
+@keyframes circlevenus {
+  0% {
+    transform: rotate(0deg) translate(-100px);
+  }
+  100% {
+    transform: rotate(360deg) translate(-100px);
+  }
+}
+@keyframes circleearth {
+  0% {
+    transform: rotate(0deg) translate(-150px);
+  }
+  100% {
+    transform: rotate(360deg) translate(-150px);
+  }
+}
+@keyframes circlemars {
+  0% {
+    transform: rotate(0deg) translate(-200px);
+  }
+  100% {
+    transform: rotate(360deg) translate(-200px);
+  }
+}
+@keyframes circlejupiter {
+  0% {
+    transform: rotate(0deg) translate(-250px);
+  }
+  100% {
+    transform: rotate(360deg) translate(-250px);
+  }
+}
+@keyframes circlesaturn {
+  0% {
+    transform: rotate(0deg) translate(-300px);
+  }
+  100% {
+    transform: rotate(360deg) translate(-300px);
+  }
+}
+@keyframes circleuranus {
+  0% {
+    transform: rotate(0deg) translate(-350px);
+  }
+  100% {
+    transform: rotate(360deg) translate(-350px);
+  }
+}
+@keyframes circleneptune {
+  0% {
+    transform: rotate(0deg) translate(-400px);
+  }
+  100% {
+    transform: rotate(360deg) translate(-400px);
+  }
+}
